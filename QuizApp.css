@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(45deg, white, yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  padding-top: 10px;
+  text-align: center;
+}
+.quiz-container {
+  background-color: gold;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 25px black;
+  width: 500px;
+  height: 450px;
+  position: relative;
+}
+#btn {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 7.5px;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+#btn:hover {
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.heading2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+}
+#quiz-question {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+  margin-left: 30px;
+}
+li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+#submit {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+#submit:hover {
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+}
